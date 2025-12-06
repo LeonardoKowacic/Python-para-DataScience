@@ -23,7 +23,9 @@ livros = [
 for i in livros:
     if i ["estoque"] != 0:
      print(f"livro disponivel {i ['nome']}");
+
 i = True;
+
 while i == True:
     user = input("digite seu nome de usuario: ");
     senha = input("digite sua senha: ");

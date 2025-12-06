@@ -4,6 +4,7 @@ dia = int(partes[0]);
 mes = int(partes[1]);
 ano = partes[2];
 if dia > 31:
+    
     print("essa nao e uma data valida");
 elif mes > 12:
     print("essa nao e uma data valida");

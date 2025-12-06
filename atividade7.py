@@ -7,6 +7,7 @@ for i in gabarito:
    prova_aluno.append(respostas.upper())
 
 for i in range(len(gabarito)):
+    
     if prova_aluno[i] == gabarito[i]:
       nota = nota+1;
       print("sua nota e: "+ str(nota));

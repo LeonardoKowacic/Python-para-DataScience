@@ -5,6 +5,7 @@ for cliente in clientes:
 contador = 0
 
 while contador < 10:
+    
     print("Processando dados...")
     contador = contador+1;
 for i in range(0, 5):

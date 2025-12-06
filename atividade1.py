@@ -9,6 +9,7 @@ def media():
     numeros = [int(x) for x in nome]
     calculo = sum(numeros) / len(numeros)
     print(calculo)
+    
 media();
 
 for i in range(0, len(nome[0])): # loop percorre todos os caracteres do primeiro item da lista

@@ -14,7 +14,6 @@ calculo = pow(numero1, numero2)
 print(calculo)
 
 pessoas =int(input("digite o numero de pessoas no sorteio"));
-
 print(random.randrange(pessoas));
 nome = input("digite seu nome");
 tokenUtilizado = [];

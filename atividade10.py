@@ -5,4 +5,5 @@ soma_desing = sum(designs.values());
 porcentagem_votos = (designs[design_vencedor]/soma_desing)*100;
 
 print(design_vencedor);
+
 print(f"Isto representa {porcentagem_votos:.2f}% do total de votos.")

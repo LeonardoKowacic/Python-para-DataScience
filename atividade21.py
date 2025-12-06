@@ -49,6 +49,7 @@ def gera_codigo():
 for i in range(0, len(estudantes)):
     id.append({estudantes[i] : gera_codigo()});
     
+
 print(id)
 
 for i in listas:
